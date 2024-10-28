@@ -47,7 +47,7 @@ export default function Page() {
         </h1>
         <div>
           <div className="flex flex-wrap justify-center gap-8">
-            {[2, 3, 4, 5].map((week) => (
+            {[2, 3, 4, 5, 6, 7].map((week) => (
               <SkeuomorphicNote key={week} week={week} href={`/week-${week}`} />
             ))}
           </div>
